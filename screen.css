@@ -1,0 +1,703 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*, *::before, *::after{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    line-height: 1.625;
+    margin: 0;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.header{
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(15.5%, rgba(0, 0, 0, 0.922045)), color-stop(39.24%, rgba(54, 54, 54, 0.5)), to(rgba(28, 28, 28, 0.4))), url(/img/eggs.jpg) center center / cover no-repeat;
+    background:-o-linear-gradient(top, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), url(/img/eggs.jpg) center center / cover no-repeat;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), url(/img/eggs.jpg) center center / cover no-repeat;
+    color: #FFF;
+}
+
+.topbar{
+    padding: 18px 0;
+    font-size: .875rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.topbar a:hover{
+    color: #c89446;
+}
+
+.logo{
+    margin-bottom: 15px;
+}
+.menu-item{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu-btn{
+    border: 1px solid #c89446;
+    padding: 7px 10px;
+    position: relative;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+}
+.menu-btn::before{
+    position: absolute;
+    content: '';
+    background: #c89446;
+    opacity: .5;
+    width: 0;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+
+}
+.menu-btn:hover::before{
+    width: 100%;
+}
+.menu-btn:focus::before{
+    width: 0;
+}
+
+.topbar .menu-btn:hover{
+    color: white;
+    -webkit-box-shadow: 0 5px 10px #c89446;
+            box-shadow: 0 5px 10px #c89446;
+}
+.topbar .menu-btn:focus{
+    color: white;
+    -webkit-box-shadow: 0 5px 10px #c89446;
+            box-shadow: 0 5px 10px #c89446;
+}
+.baseline{
+    padding: 50px 0 70px 0;
+    text-align: center;
+    line-height: 1;
+}
+
+.baseline-welcome{
+    font-family: 'Pinyon Script', sans-serif;
+    display: block;
+    color: #c89446;
+    font-size: 3.75rem;
+}
+
+.the-fiasco-in-baseline{
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.baseline-slogan{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 4px;
+}
+
+/*-----------after body----------------*/
+.home-section{
+    padding-top: 9px;
+}
+.container-small{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 960px;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1150px;
+}
+.block{
+    margin-bottom: 50px;
+}
+
+.block-img img{
+    display: block;
+    position: relative;
+    z-index: 1;
+
+}
+.block-img{
+    position: relative;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.block-img::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5%;
+    left: 4%;
+    width: 100%;
+    height: 100%;
+    border: #c89446 solid 1px;
+    overflow: hidden;
+    z-index: 0;
+
+}
+
+.block-body-title h2{
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 15px;
+}
+.pretitle{
+    display: block;
+    font-family: 'Pinyon Script', sans-serif;
+    color: #c89446;
+    font-size: 2.5rem;
+    text-transform: none;
+    font-weight: 500;
+    position: relative;
+}
+.pretitle::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background: #c89446;
+    margin-bottom: 1rem;
+    -webkit-transition: width .5s;
+    -o-transition: width .5s;
+    transition: width .5s;
+}
+.pretitle:hover::before{
+    width: 135px;
+}
+
+.block-body p{
+    color: #6F6F6F;
+}
+.see-more{
+    margin-bottom: 10px;
+}
+.see-more a{
+    color: #c89446;
+}
+.see-more a:hover{
+    text-decoration: underline;
+}
+.see-more a::after{
+    content: ' >';
+}
+.block-centered{
+    text-align: center;
+}
+.ingredient-menu{
+    margin: 40px 0;
+    text-align: center;
+}
+.ingredient-menu a{
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #383838;
+    position: relative;
+}
+.ingredient-menu a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0px;
+    height: 2px;
+    background: #c89446;
+    -webkit-transition: width .5s;
+    -o-transition: width .5s;
+    transition: width .5s;
+}
+.ingredient-menu a:hover::after{
+    width: 100%;
+}
+.ingredient-menu a:focus::after{
+    width: 100%;
+}
+.plate{
+    padding-left: 12px;
+    padding-bottom: 30px;
+    position: relative;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+.plate-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    margin-right: 20px;
+    text-align: justify;
+}
+.plate-title{
+    font-size: 1.125rem;
+    color: #383838;
+    font-weight: 900;
+    margin-left: 110px;
+    margin-bottom: .75rem;
+}
+.plate p{
+    font-size: .875rem;
+    margin-left: 110px;
+    background-color: #FFF;
+    position: relative;
+    z-index: 2;
+}
+.plate-price{
+    font-family: 'Pinyon Script', sans-serif;
+    color: #c89446;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+.reservation .container .block-centered{
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+.reservation{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(15.5%, rgba(0, 0, 0, 0.922045)), color-stop(39.24%, rgba(54, 54, 54, 0.5)), to(rgba(28, 28, 28, 0.4))),
+                url(/img/reservation.jpg) center center / cover no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)),
+                url(/img/reservation.jpg) center center / cover no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)),
+                url(/img/reservation.jpg) center center / cover no-repeat;
+
+}
+
+.reservation h2{
+    color: #6F6F6F;
+}
+
+.form-row input, .form-row select{
+    width: 100%;
+    height: 40px;
+    padding: 0 1rem;
+    margin-bottom: 10px;
+    border:solid 1px #6F6F6F;
+    background: none;
+    color: #6F6F6F;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', serif;
+    font-size: .875rem;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.form-row input:focus, .form-row select:focus{
+    border: 1px solid #c89446;
+    background: rgba(255, 255, 255, .1);
+}
+.reserve-btn{
+    background: #c89446;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    font-size: .875rem;
+    border: none;
+    color: #FFF;
+    margin-top: 10px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.reserve-btn:hover{
+    -webkit-box-shadow: 0 0 10px #c89446;
+            box-shadow: 0 0 10px #c89446;
+    background: none;
+    width: 99%;
+    color: #c89446;
+}
+.recette-list{
+    font-weight: 300;
+    max-width: 920px;
+    margin-left: auto;
+}
+.recette-list-item{
+        border-bottom: 2px solid #F2F2F2;
+        padding: 20px 0;
+}
+.recette-list strong{
+    font-weight: 700;
+    color: #383838;
+}
+.recette{
+    padding: 50px 0;
+    background: top left no-repeat url(/img/news-bg.jpg);
+}
+.map{
+    height: 464px;
+    width: 100%;
+}
+.footer .container{
+    background: #383838;
+    background-image: url(/img/splash.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 30px 70px;
+    font-weight: 300;
+    color: #F2F2F2;
+    max-width: 100%;
+
+}
+.column h3{
+    color: #c89446;
+    margin-bottom: 1.25em;
+    font-weight: 700;
+}
+.column{
+    margin-bottom: 2rem;
+}
+.mail-here{
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0;
+    color: #c89446;
+}
+.mail-here::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #c89446;
+    -webkit-transition: width .5s;
+    -o-transition: width .5s;
+    transition: width .5s;
+}
+.mail-here:hover::after{
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .topbar{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 1110px;
+        margin: 0 auto;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .logo{
+        margin-bottom: 0;
+    }
+    .baseline{
+        padding: 125px 0 230px;
+    }
+    .baseline-slogan{
+        font-size: 1.5rem;
+    }
+    .the-fiasco-in-baseline{
+        font-size: 4.375rem;
+        letter-spacing: 12px;
+        padding-top: 7px;
+        padding-bottom: 18px;
+        
+
+    }
+    .baseline-welcome{
+        font-size: 3.75rem;
+    }
+
+    .block-img img{
+        display: block;
+        position: relative;
+        z-index: 1;
+        max-width: 350px;
+    
+    }
+    .ingredient-menu a{
+        display: inline-block;
+        text-transform: uppercase;
+        margin: 0 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #383838;
+        position: relative;
+    }
+    .container .block{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .reservation .container .block-centered{
+        padding: 100px 0;
+    }
+    .recette-date strong{
+        display: block;
+    }
+    .recette-list-item{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .recette-date{
+        padding-top: 17px;
+        padding-right: 30px;
+    }
+    .recette .see-more{
+        margin-top: 60px;
+        text-align: right;
+    }
+    .recette{
+        padding: 80px 0;
+    }
+    
+}
+
+@media only screen and (min-width: 800px) {
+    .block-img img{
+        display: block;
+        position: relative;
+        z-index: 1;
+        max-width: 350px;
+    
+    }
+    .block-left{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    } 
+    .block-left .block-img{
+        margin-left: 30px;
+    }
+    .block-left .block-img::after{
+        content: '';
+        display: block;
+        position: absolute;
+        top: -30px;
+        left: -30px;
+        width: 100%;
+        height: 100%;
+        border: #c89446 solid 1px;
+        
+    }
+    .block-left .block-body{
+        margin-left: 20px;
+    }
+    .block-right .block-body{
+        margin-right: 20px;
+    }
+    .block-left .block-body, .block-right .block-body{
+        width: 445px;
+    } 
+    .block-body-title h2{
+        margin: 0;
+    }
+    .block-right{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse;
+        margin: 30px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .block-right .block-img{
+        margin-right: 30px;
+    }
+    .home-section{
+        padding-top: 9px;
+        background: fixed top 95px right 0px url(/img/oranges.jpg) no-repeat,
+                    fixed top 0px left 0px url(/img/spices.jpg) no-repeat;
+    }
+    .ingredient-menu a{
+        display: inline-block;
+        text-transform: uppercase;
+        margin: 0 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #383838;
+        position: relative;
+    }
+    .plate-summary{
+        padding: 85px 0;
+        margin: 10px auto 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin-bottom: 110px;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        position: relative;
+        z-index: 1;
+    }
+    .plate-summary::after{
+        content: '';
+        width: 300px;
+        height: 300px;
+        border: .5px solid #c89446;
+        -webkit-transform: translate(-50%, -60%) rotate(45deg);
+            -ms-transform: translate(-50%, -60%) rotate(45deg);
+                transform: translate(-50%, -60%) rotate(45deg);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 0;
+    }
+    .plate{
+        width:45%;
+        padding-left: 20px;
+    }
+    .plate:nth-child(2n){
+        padding-left: 0;
+        padding-right: 20px;
+    }
+    .plate:nth-child(2n) .plate-img{
+        right: 0;
+        left: auto;
+    }
+    .plate:nth-child(2n) .plate-title{
+        margin-left: 0;
+        margin-left: 210px;
+    }
+    .plate:nth-child(2n) p{
+        margin-left: 0;
+        margin-right: 120px;
+        text-align: end;
+    }
+    .plate:nth-child(2n) .plate-price{
+        margin-left: 85%;
+    }
+
+    .plate-img{
+        max-width: 160px;
+    }
+    .plate-title{
+        margin-top: 0;
+    }
+    .form-row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 64px 0;
+    }
+    .reserve-btn{
+        width: 100%;
+        padding: 0 40px;
+        -webkit-transition: all ease-in-out .5s;
+        -o-transition: all ease-in-out .5s;
+        transition: all ease-in-out .5s;
+    }
+    .reserve-btn:hover{
+        background: #c89446;
+        color: #FFF;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+    }
+    .form-row input, .form-row select{
+        width: calc(33.33% - 20px);
+    }
+    .recette .container h2{
+        text-align: right;
+    }
+    .recette .container > p{
+        width: 60%;
+        text-align: right;
+        margin-left: 40%;
+    }
+    .contain-footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .the-fiasco{
+        width: 445px;
+    }
+    .contact-info{
+        width: 300px;
+    }
+    .copyrith{
+        width: 300px;
+    }
+}
