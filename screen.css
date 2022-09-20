@@ -36,9 +36,9 @@ img{
 }
 
 .header{
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(15.5%, rgba(0, 0, 0, 0.922045)), color-stop(39.24%, rgba(54, 54, 54, 0.5)), to(rgba(28, 28, 28, 0.4))), url(/img/eggs.jpg) center center / cover no-repeat;
-    background:-o-linear-gradient(top, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), url(/img/eggs.jpg) center center / cover no-repeat;
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), url(/img/eggs.jpg) center center / cover no-repeat;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(15.5%, rgba(0, 0, 0, 0.922045)), color-stop(39.24%, rgba(54, 54, 54, 0.5)), to(rgba(28, 28, 28, 0.4))), url(img/eggs.jpg) center center / cover no-repeat;
+    background:-o-linear-gradient(top, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), url(img/eggs.jpg) center center / cover no-repeat;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), url(img/eggs.jpg) center center / cover no-repeat;
     color: #FFF;
 }
 
@@ -305,11 +305,11 @@ img{
 }
 .reservation{
     background: -webkit-gradient(linear, left top, left bottom, color-stop(15.5%, rgba(0, 0, 0, 0.922045)), color-stop(39.24%, rgba(54, 54, 54, 0.5)), to(rgba(28, 28, 28, 0.4))),
-                url(/img/reservation.jpg) center center / cover no-repeat;
+                url(img/reservation.jpg) center center / cover no-repeat;
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)),
-                url(/img/reservation.jpg) center center / cover no-repeat;
+                url(img/reservation.jpg) center center / cover no-repeat;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.922045) 15.5%, rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)),
-                url(/img/reservation.jpg) center center / cover no-repeat;
+                url(img/reservation.jpg) center center / cover no-repeat;
 
 }
 
@@ -372,7 +372,7 @@ img{
 }
 .recette{
     padding: 50px 0;
-    background: top left no-repeat url(/img/news-bg.jpg);
+    background: top left no-repeat url(img/news-bg.jpg);
 }
 .map{
     height: 464px;
@@ -380,7 +380,7 @@ img{
 }
 .footer .container{
     background: #383838;
-    background-image: url(/img/splash.png);
+    background-image: url(img/splash.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     padding: 30px 70px;
@@ -573,8 +573,8 @@ img{
     }
     .home-section{
         padding-top: 9px;
-        background: fixed top 95px right 0px url(/img/oranges.jpg) no-repeat,
-                    fixed top 0px left 0px url(/img/spices.jpg) no-repeat;
+        background: fixed top 95px right 0px url(img/oranges.jpg) no-repeat,
+                    fixed top 0px left 0px url(img/spices.jpg) no-repeat;
     }
     .ingredient-menu a{
         display: inline-block;
